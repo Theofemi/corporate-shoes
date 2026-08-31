@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+     <link  rel="stylesheet" href="css/externalcss.css">
+</head>
+<body>
+    <!--address table-->
+    <table class="address" border="0" align="center" width="100%">
+        <tr align="center">
+            <td width="30%">58 Elemu bus-stop oke-eletu ijede</td>
+            <td width="20%">oluwafemioria@gmail.com</td>
+            <td width="20%">08032742495</td>
+            <td width="20%">09020175511</td>
+            <td width="10%"><a href="loginpage.html">Login</a></td>
+        </tr>
+    </table>
+    <!--logo&name table-->
+    <table border="0" width="100%" align="center">
+        <tr align="center">
+            <td width="25%"><img class="logo" src="images/log0.png" height="170px" alt="The Thinker's Collection logo"></td>
+            <td width="50%"><i><h2 class="bname">The Thinker's Collection</h2></i></td>
+            <td width="25%">
+                <table border="0" width="100%">
+                    <tr align="center">
+                        <td width="25%"><img  class="vr" src="images/facebook.jpg" height="50px" alt="Facebook logo"></td>
+                        <td width="25%"><img  class="vr" src="images/instagram.jpg" height="50px" alt="Instagram logo"></td>
+                        <td width="25%"><img  class="vr" src="images/whatsapp.jpg" height="50px" alt="WhatsApp logo"></td>
+                        <td width="25%"><img  class="vr" src="images/tiktok.jpg" height="50px" alt="TikTok logo"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <!--navigation-->
+    <table border="0" align="center" width="100%">
+             <tr align="center">
+        <td width="20"><a href="index.html">Home</a></td>
+        <td width="20"><a href="product_page.html">Product Page</a></td>
+        <td width="20"><a href="our_partners.html">Our Partners</a></td>
+        <td width="20"><a href="about_us.html">About Us</a></td>
+        <td width="20"><a href="contact.html">Contact Us</a></td>
+    </tr>
+</table>
+    <br>
+    <br>
+    <table border="0" width="100%">
+        <tr>
+            <td>
+                <form method="post" action="">
+                    <table class="checkout-layout" border="0" width="100%" cellspacing="10" cellpadding="10">
+                        <tr>
+                            <td width="35%">
+                                <table width="100%" border="0">
+                                    <tr><caption><h2>Billing Address</h2></caption></tr>
+                                    <tr>
+                                        <td><label><h4>Firstname</h4></label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" name="fname" id="fname" required placeholder="enter firstname here"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label><h4>Lastname</h4></label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" name="lname" id="lname" required placeholder="enter lastname here"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label><h4>EMAIL</h4></label></td>
+                                    </tr>
+                                    <tr>
+                                       <td>
+                                        <input type="email" name="email" id="email" required placeholder="enter email here"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label><h4>Phone No</h4></label></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="tel" pattern="[0-9]{11}" name="pnumber" id="pnumber" required placeholder="enter phone no here">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label><h4>Address</h4></label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><textarea rows="3" cols="25" name="address" id="address" required placeholder="enter address here"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label><h4>City</h4></label></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" name="city" id="city" placeholder="enter city here" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox" name="sameasbiling" id="sameasbilling"><b>SHIPPING ADDRESSSAME AS BILLING</b></td>
+                                        
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="30%">
+                                <table border="0" width="100%">
+                                    <tr><td><caption><h2>Payment</h2></caption></tr></td>
+                                    <tr>
+                                        <td><label><h4>ACCEPTED CARDS</h4></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <table border="0" width="100%">
+                                                    <tr>
+                                                        <td width="25%"><img class="cards" src="images/master.jpg" height="10px" alt="MasterCard logo"></td>
+                                                        <td width="25%"><img  class="cards" src="images/visa.png" height="10px" alt="Visa logo"></td>
+                                                        <td width="25%"><img class="cards"  src="images/master.jpg" height="10px" alt="MasterCard logo"></td>
+                                                        <td width="25%"><img class="cards"  src="images/visa.png" height="10px" alt="Visa logo"></td>
+                                                        
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label>
+                                                    <h4>NAME ON CARD</h4>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="text" name="cname" id="cname" placeholder="name on card here" required>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><label><h4>CARD NUMBER</h4></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="tel" pattern="[0-9]{16}" minlength="10" maxlength="16" name="cnumber" id="cnumber" required placeholder="enter card no here">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><label><h4>EXP MONTH</h4></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="month" name="exmonth" id="exmonth" required>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><label><h4>EXP YEAR</h4></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="text" id="exyear" name="exyear" required placeholder="enter exp year here">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label><h4>CVV</h4></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="password" pattern="[0-9]{3}" id="cvv" name="cvv" required placeholder="enter your cvv here">
+                                            </td>
+                                        </tr>
+                                </table>
+                            </td>
+                            <td width="35%">
+                                <table border="0" width="100%">
+                                    <tr>
+                                        <td>
+                                            <caption>
+                                                <h2>Order Summary</h2>
+                                            </caption>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label><h4>SUB TOTAL<i>(products)</i> </h4></label></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" name="p_subtotal" id="p_subtotal" required placeholder="enter product subtotal">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label><h4>TAX</i> </h4></label></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" id="tax" name="tax" required placeholder="enter tax">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label><h4>DISCOUNT</h4></label></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" name="discount" id="discount" required placeholder="enter discount">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label><h4>SHIPPING FEE</h4></label></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" name="shfee" id="shfee" required placeholder="enter shipping fee">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label><h4>OVERALL TOTAL AMOUNT</h4></label></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" name="otamount" id="otamount" placeholder="enter overall total amount" required>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr><br>
+                        <br>
+                        <tr align="center">
+                            <td colspan="3">
+                                <input type="submit" value="Proceed to checkout">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table> 
+    <br>
+    <br>
+    <table class="foot"  border="0" width="100%" align="center">
+        <tr align="center">
+            <td>
+                <h3>The Thinker's Collection</h3><p>Classic corporate shoes for a confident step.</p>
+            </td><td width="33%"><h3>Explore</h3><a href="product_page.html">Product Page</a><br><a href="about_us.html">About Us</a><br><a href="contact.html">Contact Us</a>
+            </td><td width="33%"><h3>Get In Touch</h3><p>58 Elemu bus-stop oke-eletu ijede</p><p>oluwafemioria@gmail.com</p><p>08032742495 | 09020175511</p></td>
+        </tr><tr align="center"><td class="copyright" colspan="3"><footer>The Thinker's Collection. copyright &copy; 2026. All rights reserved</footer></td>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
